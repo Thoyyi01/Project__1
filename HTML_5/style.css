@@ -1,0 +1,47 @@
+.main-header {
+    background: linear-gradient(to top, #000000, #021a91);
+    color:rgb(254, 254, 254);
+    text-align:center;
+    padding: 10px;}
+.nav-header{
+    background-color: #4d71f2e7;
+    color: rgb(255, 255, 255);
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+footer {
+    background-color: #021a91;
+    color:rgb(249, 250, 251);
+    text-align:center;
+    clear :both;
+    padding: 10px;}
+Nav {
+    line-height: 30px;
+    background: linear-gradient(to bottom, #000000, #021a91);
+    color:rgb(255, 255, 255);
+    height: 700px;
+    width: 100px;
+    float: left;
+    padding: auto;}
+section {
+    width:350px;
+    float:left;
+    padding:10px;}
+aside {
+    background-image: url("images/travel.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255,255,255,0.8); /* helps text stand out */
+    padding: 20px;
+    border-radius: 10px;
+    float: right;
+    width: 45%;
+    margin: 20px;}
+    

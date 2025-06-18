@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_5_semantic elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header"><h1>City Gallery</h1></header>
+    <header class="nav-header">
+        <span>Filght</span>
+        <span>Bus</span>
+        <span>Train</span>
+    </header>
+    <nav>
+        <ul> 
+            <li>London</li>
+            <li>Paris</li>
+            <li>Tokyo</li>
+        </ul>
+    </nav>
+    <section>
+        <h2>London</h2>
+        <p>London is situated in southeastern England, lying astride the River Thames some 50 miles (80 km) upstream from its estuary on the North Sea. In satellite photographs the metropolis can be seen to sit compactly in a Green Belt of open land, with its principal ring highway (the M25 motorway) threaded around it at a radius of about 20 miles (30 km) from the city center. The growth of the built-up area was halted by strict town planning controls in the mid-1950s. </p>
+        <img src="images/london_1.png" alt="">
+    </section>
+    <aside>
+            <center>
+                <h2>Travelling Form</h2> <hr>
+                <form name="Travelling" method="POST" action="./New_HTML5.html">
+                    <table border="3" cellpadding="5" cellspacing="5">
+                        <tr>
+                            <td><label>First Name:</label></td>
+                            <td><input type="text" name="firstName" pattern="[a-zA-Z]{1,10}" placeholder="First Name!" required autofocus></td>
+                        </tr>
+                        <tr>
+                            <td><label>Last Name:</label></td>
+                            <td><input type="text" name="lastName" pattern="[a-zA-Z]" placeholder="Last Name!" required></td>
+                        </tr>
+                        <tr>
+                            <td><label>Departure Date:</label></td>
+                            <td><input type="date" required></td>
+                        </tr>
+                        <tr>
+                            <td><label>Return Date:</label></td>
+                            <td><input type="date" required></td>
+                        </tr>
+                        <tr>
+                            <td>Gender:</td>
+                            <td>
+                                <input type="radio" name="gender" value="male" required>
+                                <label>Male</label>
+                                <input type="radio" name="gender" value="female" required>
+                                <label>Female</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Number of Persons:</label></td>
+                            <td><input type="number" name="numpersons" required></td>
+                        </tr>
+                        <tr>
+                            <td><label>Preferred Location:</label></td>
+                            <td> 
+                                <select name="preferredLocation" size="4" style="width: 200px;" required>
+                                    <option value="Hyderabad">Hyderabad</option>
+                                    <option value="Bangalore">Bangalore</option>
+                                    <option value="Chennai">Chennai</option>
+                                    <option value="Mumbai">Mumbai</option>
+                                    <option value="Pune">Pune</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Kolkata">Kolkata</option>
+                                    <option value="Ahmedabad">Ahmedabad</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Address:</label></td>
+                            <td><textarea name="address" rows="4" cols="50" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><lable>Pincode:</td>
+                            <td><input type="text" name="empId" placeholder="Pincode!" required></td>
+                        </tr>
+                        <tr>
+                            <tr>
+                                <td><label>Updated Profile:</label></td>
+                                <td><input type="file" name="profilePhoto" accept="image/*" required></td>
+                            </tr>
+                        </tr>
+                        <tr>
+                            <td><label>Max Outboarding Days:</label> </td>
+                            <td><input type = "range" name = "Outboarding" placeholder="Enter Outboardind Days"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="Submit">
+                                <input type="reset" value="Reset"
+                            </td>
+                        </tr>
+                    </table>
+            </form>
+        </center>
+    </aside>
+    <footer> <a href:"">Copyright @Thoyyi01.com</a></footer>
+</body>
+
+</html>
